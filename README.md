@@ -1,3 +1,3 @@
-# SearchSolver https://khush205.github.io/SearchSolver/
+# SearchSolver
 A.I that Solves Word Searches
 
