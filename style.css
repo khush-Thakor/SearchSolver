@@ -21,3 +21,11 @@
     padding: 1%;
     text-align: center;
 }
+#manualSubmitButton{
+    margin: 1%;
+}
+.small-input {
+    width: 0.75cm;
+    height: 0.75cm;
+    text-align: center;
+   }
