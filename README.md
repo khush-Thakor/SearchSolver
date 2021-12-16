@@ -1,3 +1,3 @@
 # SearchSolver
-A.I that Solves Word Searches
+Program that Solves Word Searches
 
