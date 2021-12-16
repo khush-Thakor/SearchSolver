@@ -6,25 +6,41 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class = "title">Word Search Solver</div>
+        <div class = "title"><h1>Word Search Solver</h1></div>
         <div class = "tutorialQ">
-            How Does This Work?
+            <h3>How Does This Work?</h3>
         </div>
         <div class = "tutorial">
-             Enter a Image of the letters or manually enter letters, then input the words needed to be found and the size of the Word Search.
+            <h5>Enter a Image of the letters or manually enter letters, then input the words needed to be found and the size of the Word Search</h5a>
         </div>
-        <div class = "dis"> Make sure the Image of the Word Search is only the letters of the search, Please Input the words needing to be found separately.</div>
-        <center><button class = "btn btn-primary" id = "manualButton">Manual Input</button> <button class = "btn btn-primary">Image Input</button></center> 
-        <div id  = "manualInput"class="container p-5 my-5 border">
+        <div class = "dis"> <h5>Make sure the Image of the Word Search is only the letters of the search, Please Input the words needing to be found separately<h5></div>
+        <center><button class = "btn btn-primary" id = "imageButton">Image Input</button> <button id = "manualButton"class = "btn btn-primary">Manual Input</button></center> 
+        <div id  = "imageInput"class="container p-5 my-5 border">
             <div class = "fileInput">
+                <h4>Select your File</h4>
                 <input type="File">
                 <div class = "infoInput">
+                <h4>Enter Rows and Columns</h4>
                 Rows: <input type="text">
                 Columns: <input type="text">
                 </div>
                 <button class ="btn btn-success">Submit</button>
             </div>
         </div>
-        <center>Word Search Information</center>
+        <div id = "manualInput">
+        <div class = "container p-5 my-5 border">
+            <div class = "infoInput">
+                <h4>Enter Rows and Columns</h4>
+                Rows: <input type="text">
+                Columns: <input type="text">
+                <div>
+                <button id = "manualSubmitButton"class ="btn btn-success">Submit</button>
+                </div>
+                <div id = "manualInputArea">
+                    <input class = "small-input" type="text" maxlength="1">
+                </div>
+                </div>
+        </div>
+        </div>
     </body>
 </html>
