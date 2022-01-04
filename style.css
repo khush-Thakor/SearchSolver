@@ -28,4 +28,14 @@
     width: 0.75cm;
     height: 0.75cm;
     text-align: center;
+    margin: 1%;
    }
+   #mSubmitButton{
+    margin: 1%;
+   }
+   canvas{
+       margin: 5%;
+   }
+#testButton{
+    margin: 1%;
+}
