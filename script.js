@@ -251,5 +251,4 @@ function test(){
     }
     document.getElementById("mSubmitButton").click();
 }
-document.getElementById("testButton").click();
 }
